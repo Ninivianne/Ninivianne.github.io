@@ -21,10 +21,16 @@ body{
 }
 .contain{
 	padding: 0px;
+   margin: 0px;
+   width: auto;
 }
 
 .container{
 	padding: 10px 10%;
+}
+.containing{
+	padding: 0px 4%;
+	padding-top: 40px;
 }
 
 nav{
@@ -45,7 +51,7 @@ nav ul li {
 }
 
 nav ul li a{
-	color: #ffffff;
+	color: 	#DE3163;
 	text-decoration: none;
 	font-size: 18px;
 	position: relative;
@@ -313,7 +319,8 @@ nav .fa-solid{
 	}
    nav ul li{
    	display: block;
-   	margin: 25px;
+   	padding: 14px 16px;
+	   background-color: rgba(87,87,87,0.4);
    }
    nav ul .fa-solid{
    	position: absolute;
