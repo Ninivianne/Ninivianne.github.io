@@ -319,6 +319,7 @@ nav .fa-solid{
 	}
    nav ul li{
    	display: block;
+   	padding: 14px 16px;
    }
    nav ul .fa-solid{
    	position: absolute;
