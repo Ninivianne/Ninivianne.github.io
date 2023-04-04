@@ -319,8 +319,6 @@ nav .fa-solid{
 	}
    nav ul li{
    	display: block;
-   	padding: 14px 16px;
-	   background-color: rgba(87,87,87,0.4);
    }
    nav ul .fa-solid{
    	position: absolute;
