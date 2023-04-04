@@ -285,7 +285,7 @@ nav .fa-solid{
 /* responsive stuff here */
 @media only screen and (max-width: 600px) {
 	#header{
-		background-image: url("https://raw.githubusercontent.com/Ninivianne/Ninivianne.github.io/main/image/Zhongli.png");
+		background-image: url("https://raw.githubusercontent.com/Ninivianne/Ninivianne.github.io/main/image/zhongli.png");
       background-size: cover;
     	}
 	.header-text{
