@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<title>Ninivianne's bio</title>
+	<link rel="stylesheet" href="css/ace.css">
+	<link rel="icon" type="image/x-icon" href="image/favicon.ico?">
+	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+	<script src="https://kit.fontawesome.com/95bf17a0c1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="header">  
+		<div class="contain">
+			<nav>
+				<img src="image/ninivianne.png" class="logo">
+				 <ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#bio">Bio</a></li>
+					<li><a href="#services">Services</a><li>
+					<li><a href="#contact">Contact Me</a></li>	
+				    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				 </ul>
+				 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<h1><span> Ninivianne</span></h1>
+				<p>Professional lurker<br> Aspiring writer<br> Amateur web developer</p>
+			</div>
+		</div>
+</div>
+<div id="bio">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="https://c4.wallpaperflare.com/wallpaper/570/618/358/pixiv-anime-2d-anime-boys-zhongli-genshin-impact-hd-wallpaper-preview.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-heading"> About me</h1>
+				<p> Hallo people, I am Niniviannne. I like to read novels, play games and listen to music. I am currently learning html, css, javascrript and python. I am also working on my own novel at the moment. I'll post the link here once i start posting it on royal road  </p>
+				<div class="tab-titles">
+					<p class="tab-links active-link onclick=" onclick="opentab('likes')">Likes</p>
+					<p class="tab-links" onclick="opentab('dislikes')">Dislikes</p>
+					<p class="tab-links" onclick="opentab('artists')">Artists I like</p>
+					<p class="tab-links" onclick="opentab('stories')">Stories</p>
+				</div>
+				<div class="tab-content active-tab" id="likes">
+					<ul>
+						<!--- add that to the list --->
+					    <li><i class="fa-solid fa-book"></i>Novels</li>
+					    <li><i class="fa-solid fa-headphones"></i>Music</li>
+					    <li><i class="fas fa-tv"></i>Anime</li>
+					    <li><i class="fa-solid fa-book-open"></i>Manhwas</li>
+					    <li><i class="fa-solid fa-heart"></i>You</li>
+				    </ul>
+			    </div>
+			    <div class="tab-content" id="dislikes">
+					<ul>
+					    <li><i class="fa-solid fa-face-angry"></i>Rude People</li>
+				    </ul>
+			    </div><div class="tab-content" id='artists'>
+					<ul>
+					    <li><i class="fa-solid fa-music"></i><a href="https://www.youtube.com/watch?v=sPRfjfBkq8k">Boywithuke</a> </li>
+					    <li><i class="fa-solid fa-music"></i><a href="https://www.youtube.com/watch?v=YTQV48V44Sw">Ado</a> </li>
+					    <li><i class="fa-solid fa-music"></i><a href="https://www.youtube.com/watch?v=ZK_16-oM3AA">Trickle</a> </li>
+					    <li><i class="fa-solid fa-music"></i></i><a href="https://youtu.be/vB8sxY_PJ_w">Kanaria</a></li>
+					    <li><i class="fa-solid fa-palette"></i><a href="https://www.pixiv.net/en/users/69233208">Aruseee</a> </li>
+				    </ul>
+			    </div><div class="tab-content" id="stories">
+					<ul>
+					    <li>Coming soon...</li>
+				    </ul>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+<div id="services">
+	<div class="container">
+		<h1 class="sub-heading">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-i-cursor"></i>
+				<h2>Editing</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<a href="#">Learn More</a>
+			    </p>
+			</div>
+			<div>
+                <i class="fa-solid fa-check"></i> 
+				<h2>ProofReading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<a href="#">Learn More</a>
+			    </p>
+			</div>
+			<div>
+				<i class="fa-solid fa-user-group"></i>
+				<h2>Hugs</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<a href="#">Learn More</a>
+			    </p>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="left">
+				<h1 class="sub-heading">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>Ninivianne@gmail.com</p>
+				<p><i class="fa-solid fa-comments"></i>Placeholder</p>
+				<div class="icons">
+					<a href="https://github.com/Ninivianne"><i class="fa-brands fa-github"></i></a>
+				</div>
+			</div>
+			<div class="right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email ID" required>
+       				<textarea name="Message" rows=6 placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	let tablinks = document.getElementsByClassName('tab-links');
+    let tabcontents = document.getElementsByClassName('tab-content');
+
+    function opentab(tabname){
+        for(tl of tablinks){
+            tl.classList.remove("active-link")
+        }
+        for(tc of tabcontents){
+            tc.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }    
+</script>
+<script>
+	let sidemenu = document.getElementById("sidemenu");
+	function openmenu() {
+		sidemenu.style.right = "0";
+	}	
+	function closemenu() {
+		sidemenu.style.right = "-240px";	
+	}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzwmW8duoaKKe8nhMAjbJAZxd981ofpzbQyP59HR_CT3mVY2v99PepkTI3RV2dVriGr/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	 msg.innerHTML = "Message sent succesfully"
+      	 setTimeout(function(){
+      	 	msg.innerHTML = ""
+      	 },2500)
+      	 form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
