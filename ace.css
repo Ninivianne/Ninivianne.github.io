@@ -160,12 +160,12 @@ nav ul li a:hover::after{
 	text-decoration: none;
 	width: 50%;
 	display: flex;
-	align-items: center;
+	line-height: 1.2;
 	color: #ffc0cb;
 	font-size: 20px;
 	position: relative;
 	left: 224px;
-	font-size: 24;
+	font-size: 22px;
 	font-family: Comfortaa;
 }
 .tab-content ul li a{
