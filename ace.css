@@ -159,6 +159,7 @@ nav ul li a:hover::after{
 .tab-content ul li{
 	list-style: none;
 	width: 50%;
+	display: flex;
 	align-items: center;
 	color: #ffc0cb;
 	font-size: 20px;
