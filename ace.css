@@ -399,8 +399,11 @@ nav .fa-solid{
     	left: 70px;   
    }
    .tab-content i{
-   	font-size: 19px;
-   	display:inline-block ;
+     	display:inline-block ;
+   }
+   .tab-content ul li i{
+   	height: 24px;
+   	width: 40px;
    }
    .icons a{
 	   margin-right: 10px;
