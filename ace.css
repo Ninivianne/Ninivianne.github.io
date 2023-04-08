@@ -326,10 +326,11 @@ nav .fa-solid{
 	.header-text{
 		margin-top: 100%;
 		position: inherit;
-		font-size: 16px;	
+		font-size: 19px;	
+		padding: 10px 10%;
 	}
 	.header-text h1{
-       font-size: 30px;
+       font-size: 37px;
 	}
 	nav .fa-solid{
 		display: block;
@@ -381,6 +382,7 @@ nav .fa-solid{
 	   left: 7px;
 	   font-size: 18px;
 	   margin-right: 13px;
+	   overflow-y: hidden;
    }
    .tab-content ul{
    	padding: 0px;
@@ -398,6 +400,9 @@ nav .fa-solid{
    }
    .left,.right{
    	flex-basis: 100%;
+   }
+   .right{
+   	overflow-y: hidden;
    }
    .left p{
 	   display: inline-flex;
