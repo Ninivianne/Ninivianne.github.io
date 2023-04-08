@@ -1,6 +1,7 @@
 {
    margin:0;
    padding:0;
+   box-sizing: border-box;
    font-family:'Poppins',serif;
    box-sizing: border-box;
 }
@@ -69,7 +70,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-	margin-top: 20%;
+	margin-top: 23%;
 	font-family: Comfortaa;
 	font-size: 22px;
 	position: relative;
@@ -84,10 +85,14 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
 	padding: 0px;
-	color:#d6799e }
+	color:#d6799e
+}
 
 #bio{
 	padding: 80px 0;
+}
+.text{
+	display: grid;
 	color: #DCAE96;
 	font-family: Comfortaa ;
 	font-size: 18px;
@@ -114,13 +119,12 @@ nav ul li a:hover::after{
 .about-col-2{
 	flex-basis: 60%;
 }
-
 .sub-heading{
 	font-family: EB Garamond ;
 	font-size: 120 px;
 	font-weight: 600;
 	color: #fff;
-    text-align: center;
+   text-align: center;
 }
 .tab-titles{
 	display: flex;
@@ -133,7 +137,7 @@ nav ul li a:hover::after{
 	font-family: EB garamond;
 	font-size: 23px;
 	font-weight: 500;
-    color: #fff;
+   color: #fff;
 	cursor: pointer;
 	position: relative;
 }
@@ -162,6 +166,7 @@ nav ul li a:hover::after{
 	left: 224px;
 }
 .tab-content ul li a{
+	list-style: none;
 	text-decoration: none;
 	color: #ffc0cb;
 }
@@ -313,22 +318,16 @@ nav .fa-solid{
 @media only screen and (max-width: 600px) {
 	#header{
 		background-image: url("./image/zhongli.png");
-        background-size: cover;
+      background-size: cover;
     	}
     *{
 		overflow-x: hidden;
-		width: auto;
-	}
-	.span h1{
-		font-size: 18;
-	}	
-	.span p{
-		font-size: 16;
 	}
 	.header-text{
 		margin-top: 100%;
-		font-size: 16px;
-		max-width: 360px auto;	}
+		position: inherit;
+		font-size: 16px;	
+	}
 	.header-text h1{
        font-size: 30px;
 	}
@@ -338,7 +337,7 @@ nav .fa-solid{
 		padding: 25px;
 	}
 	nav ul{
-		background: #808080;
+		background: rgb(128, 128, 128,0.7);
 		position: fixed;
 		top: -10px;
 		right: -240px;
@@ -371,14 +370,28 @@ nav .fa-solid{
    .sub-heading{
    	text-align: center ;
    }
+   .text{
+   	font-size:16px;
+   }
+   .tab-titles{
+   	left: 5px;
+   }
    .tab-links{
-   	font-size: 20px;
-	margin: auto;
-	left: -125px;
+   	margin: auto;
+	   left: 7px;
+	   font-size: 18px;
+	   margin-right: 13px;
+   }
+   .tab-content ul{
+   	padding: 0px;
    }
    .tab-content ul li{
-   	font-size: 16px;
-	left: 70px;   
+   	font-size: 18px;
+    	left: 70px;   
+   }
+   .tab-content i{
+   	font-size: 19px;
+   	display:inline-block ;
    }
    .icons a{
 	   margin-right: 10px;
@@ -388,7 +401,7 @@ nav .fa-solid{
    }
    .left p{
 	   display: inline-flex;
-	   left: 70px;
+	   left: 10px;
    }
    .icons{
     text-align: center;
